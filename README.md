@@ -1,2 +1,2 @@
 # GSM
-![Optional Text](../master/gprs-network-architecture.jpg)
+#![Optional Text](../master/gprs-network-architecture.jpg)
