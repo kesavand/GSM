@@ -16,6 +16,8 @@ BSC:
 Base Station Controller (BSC):   The BSC forms the next stage back into the GSM network. It controls a group of BTSs,It communicates with the BTSs over what is termed the Abis interface.
 
 Network Switching Subsystem (NSS):
+
+
 The NSS has one hardware, Mobile switching center and four software database element: Home location register (HLR), Visitor location Register (VLR), Authentications center (Auc) and Equipment Identity Register (EIR). The MSC basically performs the switching function of the system by controlling calls to and from other telephone and data systems. It includes functions such as network interfacing and common channel signalling.
 
 Mobile switch center (MSC)
