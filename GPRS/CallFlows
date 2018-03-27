@@ -1,0 +1,12 @@
+GPRS call flows:
+==============
+GPRS attach 
+GPRS PDP context activation
+TBF allocation 
+==============
+
+
+GPRS PDP context deactivation
+GPRS dettach
+
+TBF release 
