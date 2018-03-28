@@ -1,13 +1,3 @@
-GSM TBD:
---------
-Protocol Stack 
-Important IDs
-
-Logical Channels
-Call Flows 
-MO, MT , HO, 
-
-
 GPRS TBD:
 ----------
 Protocol Stack 
@@ -35,3 +25,5 @@ Downlink Establishment
 		cipering 
 	PDP activation
 	Downlink Data Transfer (<- RLC/MAC BLOCKS ) (-> PACKET DOWNLINKACK/NACK)
+
+LTE
