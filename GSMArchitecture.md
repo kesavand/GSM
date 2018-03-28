@@ -62,4 +62,44 @@ The AuC is a protected database that contains the secret key also contained in t
 
 GSM Protocol Stack:
 ==================
+![Optional Text](https://github.com/kesavand/GSM_GPRS/blob/master/Images/gsm-protocol-stack.gif)
 
+
+GSM Address and Identificaton:
+==============================
+Mobile Subscriber ISDN Number (MSISDN):
+---------------------------------------
+The authentic telephone number of a mobile station is the Mobile Subscriber ISDN Number (MSISDN).Based on the SIM, a mobile station can have many MSISDNs, as each subscriber is assigned with a separate MSISDN to their SIM respectively.It consists of the following thress numbers.
+1. Country Code (CC) : Up to 3 decimal places.
+2. National Destination Code (NDC) : Typically 2-3 decimal places.
+3. Subscriber Number (SN) : Maximum 10 decimal places.
+
+Mobile Station Roaming Number (MSRN):
+-------------------------------------
+Mobile Station Roaming Number (MSRN) is an interim location dependent ISDN number, assigned to a mobile station by a regionally responsible Visitor Location Register (VLA). Using MSRN, the incoming calls are channelled to the MS.HLR maps the MSRN to the ISDN.
+The MSRN has the same structure as the MSISDN.
+
+1.Country Code (CC) : of the visited network.
+2.National Destination Code (NDC) : of the visited network.
+3.Subscriber Number (SN) : in the current mobile network.
+
+Temporary Mobile Subscriber Identity (TMSI):
+--------------------------------------------
+Temporary Mobile Subscriber Identity (TMSI) can be assigned by the VLR, which is responsible for the current location of a subscriber. The TMSI needs to have only local significance in the area handled by the VLR. This is stored on the network side only in the VLR and is not passed to the Home Location Register (HLR).Together with the current location area, the TMSI identifies a subscriber uniquely. It can contain up to 4 × 8 bits.
+
+Location Area Code(LAC) :
+-------------------------
+The Location Area Code uniquely identifies a LA (Location Area) within a PLMN (Public Land Mobile Network). It may range from 0 to 65,535.
+
+Cell Identifier (CI):
+---------------------
+Using a Cell Identifier (CI) (maximum 2 × 8) bits, the individual cells that are within an LA of a PLMN can be recognized. 
+
+Location Area Identity (LAI): 
+----------------------------
+Each location area of a public land mobile network (PLMN) has its own globally unique identifier which is known as its location area identity (LAI). This internationally unique identifier is used for location updating of mobile subscribers.
+LAI = MCC + MNC + LAC
+
+CellGlobalIdnetity(CGI):
+------------------------
+When the Global Cell Identity (LAI + CI) calls are combined, then a cell is globally uniquely identified.
