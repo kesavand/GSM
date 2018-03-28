@@ -1,11 +1,15 @@
-GSM TBD
+GSM TBD:
+--------
 Protocol Stack 
+Important IDs
+
 Logical Channels
 Call Flows 
 MO, MT , HO, 
 
 
-GPRS TBD
+GPRS TBD:
+----------
 Protocol Stack 
 Logical Channels
 Call Flows 
