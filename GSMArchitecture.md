@@ -60,6 +60,6 @@ Authentication Centre (AuC):
 ---------------------------
 The AuC is a protected database that contains the secret key also contained in the user's SIM card. It is used for authentication and for ciphering on the radio channel.
 
-
-
+GSM Protocol Stack:
+==================
 
